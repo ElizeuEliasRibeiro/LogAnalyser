@@ -1,0 +1,16 @@
+Jul 15 20:17:04 @my_user sshd[1104]: Connection closed by authenticating user @my_user @my_IP port 34798 [preauth]
+Jul 15 20:17:04 @my_user sshd[1105]: Connection closed by authenticating user @my_user @my_IP port 34812 [preauth]
+Jul 15 20:17:06 @my_user sshd[1110]: Failed password for user from @my_IP port 34860 ssh2
+Jul 15 20:17:06 @my_user sshd[1110]: Connection closed by authenticating user @my_user @my_IP port 34860 [preauth]
+Jul 15 20:17:06 @my_user sshd[1110]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=@my_IP  user=@my_user
+Jul 15 20:17:48 @my_user su: (to @my_user) root on tty1
+Jul 15 20:17:48 @my_user su: pam_unix(su-l:session): session opened for user @my_user(uid=1000) by root(uid=0)
+Jul 15 20:18:34 @my_user su: (to root) root on tty1
+Jul 15 20:18:34 @my_user su: pam_unix(su-l:session): session opened for user root(uid=0) by root(uid=1000)
+Jul 15 20:21:14 @my_user sshd[457]: exited MaxStartups throttling after 00:04:13, 2 connections dropped
+Jul 15 20:21:14 @my_user sshd[1146]: User root from ::1 not allowed because not listed in AllowUsers
+Jul 15 20:21:16 @my_user sshd[1146]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=root
+Jul 15 20:21:18 @my_user sshd[1146]: Failed password for invalid user root from ::1 port 39440 ssh2
+Jul 15 20:21:25 @my_user sshd[1146]: Failed password for invalid user root from ::1 port 39440 ssh2
+Jul 15 20:21:32 @my_user sshd[1146]: Failed password for invalid user root from ::1 port 39440 ssh2
+Jul 15 20:21:34 @my_user sshd[1146]: Connection closed by invalid user root ::1 port 39440 [preauth]
