@@ -1,0 +1,23 @@
+## Requisitos
+
+- Python 3.11 ou superior
+
+## Instalação
+
+Clone o repositório:
+
+bash
+git clone https://github.com/ElizeuEliasRibeiro/log-analyzer.git
+
+Execute o programa:
+
+Entre na pasta:
+
+bash
+cd log-analyzer
+
+Execute o programa: 
+
+bash
+python src/main.py
+
